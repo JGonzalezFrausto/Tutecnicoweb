@@ -1,0 +1,5 @@
+1.hipervinculo de botones
+2.base de datos de tecnicos (javier)
+3.filtros de etiquetas
+4. localizacion con un plug-in (samuel)
+5.cliclos de busqueda
