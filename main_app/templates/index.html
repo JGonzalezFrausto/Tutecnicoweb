@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">Bienvenido a Tu Tecnico.com</h1>
+      <p class="lead text-muted">Donde buscas y encuentras ayuda a tus problemas.</p>
+      <p>
+        <a href="#" class="btn btn-primary my-2">¡Encuentra ayuda!</a>
+        <a href="#" class="btn btn-secondary my-2">¡Ofrece tus servicios!</a>
+      </p>
+    </div>
+  <!--</section>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+         {% for auto in autos %} 
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <a href="/{{auto.id}}/">
+              <img src="{{ auto.image.url }}" class="auto-picture">
+            </a>
+            <div class="card-body">
+              <!-- <h3>{{ auto.nombre }}</h3>
+              <p>Modelo: <strong>{{ auto.modelo }}</strong></p>
+              {% if auto.valor > 0 %}
+              <p>Precio: <strong>${{ auto.valor }}</strong></p>
+              {% else %}
+              <p>De coleccion</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %} 
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <form enctype="multipart/form-data" action='post_url/' method='POST'>
+          {% csrf_token %}
+          {{ form.as_p }}
+          <input type='submit' value='Guardar' />
+        </form>
+      </div>
+    </div>
+  </div> 
+{% endblock %}

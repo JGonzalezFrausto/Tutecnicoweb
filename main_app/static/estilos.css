@@ -1,0 +1,16 @@
+h1 {
+  color: green;
+}
+
+.auto-picture {
+  max-width: 100%;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
