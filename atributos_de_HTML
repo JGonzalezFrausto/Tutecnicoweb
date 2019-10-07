@@ -1,0 +1,9 @@
+este documento sirve como consulta de HTML.
+
+todas las etiquetas = https://www.brandominus.com/todas-etiquetas-html5/
+
+atributos de etiquetas y sus elementos = https://developer.mozilla.org/es/docs/Web/HTML/Atributos
+
+se abren con los mayor que (>) y menor que (<). Ejemplo: <body>
+
+para cerrar una etiqueta se agrega el slash (/). Ejemplo: </body>
